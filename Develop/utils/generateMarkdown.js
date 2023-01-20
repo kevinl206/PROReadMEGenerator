@@ -50,7 +50,6 @@ function renderLicenseSection(license) {
 
   function generateMarkdown({title, description, installation, usage, license, contribution, testing, github, email}) {
     return `
-  # ${title} ${renderLicenseBadge(license)}
     
     # ${title} ${renderLicenseBadge(license)}
     ## Table of Contents
