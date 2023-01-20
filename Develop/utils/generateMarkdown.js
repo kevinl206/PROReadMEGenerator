@@ -76,7 +76,7 @@ function renderLicenseSection(license) {
     [Back to top](#)
   
     ## License
-    ${renderLicenseSection(license)} ${renderLicenseLink(license)}
+    ${data.license} ${licenseLink}
     [Back to top](#)
   
     ## Contributing
@@ -92,7 +92,7 @@ function renderLicenseSection(license) {
     [Back to top](#)
   
     ## Questions
-    To view my  GitHub repository [here](https://github.com/${username}). If you have any additional questions, feel free to reach out to me via [email](mailto:${email}).
+    To view my  GitHub repository [here](https://www.github.com/${github}). If you have any additional questions, feel free to reach out to me via [email](mailto:${email}).
     [Back to top](#)
 `;
 }
