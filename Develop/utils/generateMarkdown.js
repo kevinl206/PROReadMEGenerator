@@ -27,8 +27,11 @@ switch(license) {
     break;
 
   case "Apache 2.0": license = "Learn more [here](https://opensource.org/licenses/Apache-2.0).";
+
     break;
+
   case "none": license = "";
+
     break;
 }
 return license;
@@ -37,12 +40,60 @@ return license;
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (license === "none") {
+    return `- [License](#lic)`
+  }
+}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
 
+  function generateMarkdown({title, description, installation, usage, license, contribution, testing, github, email}) {
+    return `
+  # ${title} ${renderLicenseBadge(license)}
+    
+    # ${title} ${renderLicenseBadge(license)}
+    ## Table of Contents
+    - [Description](#description)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [License](#license)
+    - [Contributing](#contributing)
+    - [Github](#github)
+    - [Email](#email)
+    - [Questions](#questions)
+  
+    ## Description
+    ${description}
+    [Back to top](#)
+  
+    ## Installation
+    ${installation}
+    [Back to top](#)
+  
+    ## Usage
+    ${usage}
+    [Back to top](#)
+  
+    ## License
+    ${renderLicenseSection(license)} ${renderLicenseLink(license)}
+    [Back to top](#)
+  
+    ## Contributing
+    ${contribution}
+    [Back to top](#)
+  
+    ## Github
+    ${github}
+    [Back to top](#)
+  
+    ## Email
+      ${email}
+    [Back to top](#)
+  
+    ## Questions
+    To view my  GitHub repository [here](https://github.com/${username}). If you have any additional questions, feel free to reach out to me via [email](mailto:${email}).
+    [Back to top](#)
 `;
 }
 
