@@ -27,5 +27,6 @@
 [Back to top](#)
   
 ## Questions
-    To view my  GitHub repository [here](https://www.github.com/github.com/kevinl206). If you have any additional questions, feel free to reach out to me via [email](mailto:kevinl206@yahoo.com).
+  any additional questions, feel free to reach out to me via [email](mailto:kevinl206@yahoo.com).
+  
 [Back to top](#)
