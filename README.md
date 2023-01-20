@@ -16,6 +16,7 @@
 [Back to top](#)
   
 ## Screenshot of Terminal
+![Image](./IMG/Screen%20Shot%202023-01-19%20at%206.30.38%20PM.png)
   
 ## Github
     github.com/kevinl206
