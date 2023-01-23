@@ -1,19 +1,17 @@
 
-  # How to create a README file! [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-    
-  # How to create a README file! [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # Professional README Generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Table of Contents
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Github](#github)
-  - [Email](#email)
-  - [Questions](#questions)
+   - [Description](#description)
+   - [Installation](#installation)
+   - [Usage](#usage)
+   - [License](#license)
+   - [Contributing](#contributing)
+   - [Github](#github)
+   - [Email](#email)
+   - [Questions](#questions)
   
   ## Description
-    As a developer I want to create a README generator so I can quickly create a professional README for a new project.
+    As a developer I want tto create a README generator so I can quickly create a professional README for a new project.
     [Back to top](#)
   
   ## Installation

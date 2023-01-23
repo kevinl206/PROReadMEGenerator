@@ -17,7 +17,14 @@
   
 ## Screenshot of Terminal
 ![Image](./IMG/Screen%20Shot%202023-01-19%20at%206.30.38%20PM.png)
-  
+
+## Screenshot of Example
+![Image](./IMG/Chall09SS.png)
+![Image](./IMG/Chall09SS2.png)
+## Functionality
+![Image](./IMG/Studio_Project.gif)
+
+![Image](./IMG/Untitled__Jan_23%2C_2023_2_43_PM.gif)
 ## Github
     github.com/kevinl206
 [Back to top](#)
