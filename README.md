@@ -1,5 +1,7 @@
 
 # How to create a README file! [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Walkthrough Video Guide
+- [Video Guide](https://www.kapwing.com/videos/63faef5ff71a89001156ec8e)
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
